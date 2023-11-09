@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Functions</title>
+</head>
+<body>
+
+<p id="demo"></p>
+
+<script>
+
+  function sayHelloWorld() {
+    window.alert("Hello World");
+  }
+
+  sayHelloWorld()
+
+  function sayHelloWorld2(message) {
+    window.alert(message);
+  }
+
+  sayHelloWorld2("Testmessage")
+
+  function sayHelloWorld3(message) {
+    document.getElementById("demo").innerHTML = message;
+  }
+
+  sayHelloWorld3("Another message")
+
+  function sayHelloWord4(message) {
+    return message + "!";
+  }
+
+  let mes = sayHelloWord4("Das ist eine neue Nachricht")
+  console.log(mes)
+
+</script>
+
+</body>
+</html>
