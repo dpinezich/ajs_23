@@ -13,8 +13,19 @@
     lastName: "Doe",
     country: "Norway",
     age: 50,
+    alertMeMuted: function () {
+     console.log(this.firstName + " is " + this.age + " and lives in " + this.country);
+    },
+    alertMe: function () {
+      return this.firstName + " is " + this.age + " and lives in " + this.country
+    }
     };
-  alert(person.firstName + " is " + person.age + " and lives in " + person.country);
+
+  window.alert(person.firstName);
+  window.alert(person.firstName + " is " + person.age + " and lives in " + person.country);
+
+  let something = person.alertMe()
+  window.alert(something)
 
 </script>
 </body>

@@ -1,0 +1,2 @@
+This project has been adopted and changed a bit from https://github.com/john-smilga/javascript-basic-projects
+The initial rights belong to the author. Thank you for contributing awesome javascript projects!
